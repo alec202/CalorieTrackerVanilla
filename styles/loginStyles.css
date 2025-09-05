@@ -1,0 +1,19 @@
+/* General Page Setup */
+* {
+    transform: scale(1.2);
+}
+
+body{
+    padding: 0.5em;
+}
+
+/* Specific element stuff */
+.loginCard {
+    border: 0.0625em solid rgb(105, 103, 103);
+}
+
+h1, 
+.loginCard {
+    text-align: center;
+}
+
