@@ -1,23 +1,44 @@
 /* General Page Setup */
 
-body,
+
 main{
     padding: 2em;
     margin: 0;
+    width: 90%;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
+    text-decoration: solid line black 2px;
+
 }
 
 /* Specific element stuff */
 .loginContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
     border: 0.0625em solid rgb(105, 103, 103);
-
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    /* ADJUST THE CONTAINER SO IT'S IN THE CENTER OF THE PAGE, NOT CENTER BETWEEN H1 ELEMENT AND END OF PAGE. PERHAPS LOOK INTO POSITION PROPERTY */
 }
 
+.userNameWidget,
+.passWidget,
+.loginButtons {
+    /* ADJUST THE TEXT AND INPUT BOXES SO THEY ARE CENTERED WITHIN THE DIV. LOOK INTO POSITION PROPERTY. */
+    margin: 1.2em;
+    transform: scale(1.5);
+}
 
+/* button styling */
+input[type="button"] {
+    cursor: pointer;
+    background-color: rgba(90, 9, 144, 0.871);
+    color: white;
+    border-radius: 10px;
+}
+
+input[type="button"]:hover {
+    opacity: 0.8;
+}
