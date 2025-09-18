@@ -2,7 +2,7 @@
 A health Calorie Tracker using vanilla tools
 
 # Where at
-Currently I'm working on the Front End for the login page.
+Currently I'm working on the front end for the login page.
 
 # Next Steps
 - [ ] Center the login container box
