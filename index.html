@@ -11,22 +11,26 @@
 
 <body>
     <main>
-        <h1>Log in!</h1>
-        <form class="loginContainer" method="post" id="login">
-            <div class="userNameWidget">
-                <label for="user">Username: </label>
-                <input type="text" name="user" id="user" autocomplete="username" placeholder="JohnSmith123">
-            </div>
-            <div class="passWidget">
-                <label for="pass">Password: </label>
-                <input type="password" name="pass" id="pass" autocomplete="current-password" placeholder="appl3sYummy!">
-            </div>
-            <div class="loginButtons">
-                <input type="button" value="Forgot Password">
-                <input type="button" value="Submit">
-            </div>
-        </form>
-
+        <div class="loginContainer">
+            <h1>Log in!</h1>
+            <form class="login" method="post" id="login">
+                <div class="userNameContainer">
+                    <label for="user">Username: </label>
+                    <br>
+                    <input type="text" name="user" id="user" autocomplete="username" placeholder="JohnSmith123">
+                </div>
+                <div class="passContainer">
+                    <label for="pass">Password: </label>
+                    <br>
+                    <input type="password" name="pass" id="pass" autocomplete="current-password"
+                        placeholder="appl3sYummy!">
+                </div>
+                <div class="loginButtons">
+                    <input type="button" value="Forgot Password">
+                    <input type="button" value="Submit">
+                </div>
+            </form>
+        </div>
     </main>
     <script src="scripts/login.js"></script>
 </body>

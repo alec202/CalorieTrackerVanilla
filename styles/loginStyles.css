@@ -1,7 +1,5 @@
 /* General Page Setup */
-
-
-main{
+body {
     padding: 2em;
     margin: 0;
     width: 90%;
@@ -10,33 +8,58 @@ main{
 
 h1 {
     text-align: center;
-    text-decoration: solid line black 2px;
-
+    text-decoration: underline black 2px;
+    font-size: 3em;
 }
 
-/* Specific element stuff */
+/* Specific element stuff below*/
+
 .loginContainer {
-    border: 0.0625em solid rgb(105, 103, 103);
-    margin: 0 auto;
-    width: 500px;
-    height: 500px;
-    /* ADJUST THE CONTAINER SO IT'S IN THE CENTER OF THE PAGE, NOT CENTER BETWEEN H1 ELEMENT AND END OF PAGE. PERHAPS LOOK INTO POSITION PROPERTY */
+    border: 0.0625em solid rgb(0, 0, 0);
+    margin: auto;
+    width: 31.125rem;
+    background-color: rgb(232, 232, 232);
+    /* ADJUST THE CONTAINER SO IT'S IN THE CENTER OF THE PAGE */
 }
 
-.userNameWidget,
-.passWidget,
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userNameContainer,
+.passContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.userNameContainer,
+.passContainer,
 .loginButtons {
     /* ADJUST THE TEXT AND INPUT BOXES SO THEY ARE CENTERED WITHIN THE DIV. LOOK INTO POSITION PROPERTY. */
-    margin: 1.2em;
     transform: scale(1.5);
+    margin: 1.75rem;
 }
 
 /* button styling */
+.loginButtons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
 input[type="button"] {
     cursor: pointer;
-    background-color: rgba(90, 9, 144, 0.871);
+    background-color: rgb(74, 184, 236);
     color: white;
     border-radius: 10px;
+    border-style: solid;
+    width: fit-content;
+    padding: 0.25rem 0.4rem;
+    margin: 0 1rem;
 }
 
 input[type="button"]:hover {
