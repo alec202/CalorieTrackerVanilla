@@ -4,11 +4,12 @@ body {
     margin: 0;
     width: 90%;
     text-align: center;
+    background: #fffdd0;
 }
 
 h1 {
     text-align: center;
-    text-decoration: underline black 2px;
+    text-decoration: underline white 2px;
     font-size: 3em;
 }
 
@@ -18,7 +19,8 @@ h1 {
     border: 0.0625em solid rgb(0, 0, 0);
     margin: auto;
     width: 31.125rem;
-    background-color: rgb(236, 235, 235);
+    background-color: #014f86;
+    color: white;
     /* ADJUST THE CONTAINER SO IT'S IN THE CENTER OF THE PAGE */
 }
 
@@ -53,7 +55,7 @@ form {
 }
 input[type="button"] {
     cursor: pointer;
-    background-color: rgb(74, 184, 236);
+    background-color: #cc5500;
     color: white;
     border-radius: 10px;
     border-style: solid;
