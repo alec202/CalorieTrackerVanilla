@@ -14,6 +14,9 @@ Have the actual content be: #014f86 (dark blue) and text color within the conten
 # Next Steps
 - [ X ] Pick a color scheme
 - [ X ] Center the login container box
-- [ ] Change the password and username placeholder to 
+- [ ] make the submit button bigger and in the center
+- [ ] add margin top for the forgot password link
+- [ ] Reduce the margin between the username input box and the Log in text
+- [ ] Change the password and username placeholder to Username or password? instead of an example?
 - [ ] update the backgroun of the login container box and the background of the body element so it looks more "modern"
 - [ ] Change the forgot password button to be a text link instead of a normal button and put the textdirectly underneath the password input box. See Microsoft account login example.

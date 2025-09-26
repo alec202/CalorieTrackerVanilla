@@ -2,9 +2,9 @@
 body {
     /* padding: 2em; */
     margin: 0 auto;
-    width: 90%; 
+    width: 90%;
     text-align: center;
-    background: #fffdd0;
+    background: #014f86;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -14,18 +14,18 @@ body {
 
 h1 {
     text-align: center;
-    text-decoration: underline white 2px;
+    text-decoration: underline black 2px;
     font-size: 3em;
 }
 
 /* Specific element stuff below*/
 
 .loginContainer {
-    border: 0.0625em solid rgb(0, 0, 0);
+    border: 0.40em solid rgb(0, 0, 0);
     margin: auto;
-    width: 31.125rem;
-    background-color: #014f86;
-    color: white;
+    width: 27.125rem;
+    background-color: #fffdd0;
+    color: black;
     /* ADJUST THE CONTAINER SO IT'S IN THE CENTER OF THE PAGE */
 }
 
@@ -35,29 +35,26 @@ form {
     align-items: center;
 }
 
-.userNameContainer,
-.passContainer {
+.login-widgets {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
-.userNameContainer,
-.passContainer,
+/* create spacing between input boxes */
+div > input:first-child {
+    /* select first child of */
+    margin-bottom: 18px;
+}
+/* Done createing space between input */
+
+.login-widgets,
 .loginButtons {
-    /* ADJUST THE TEXT AND INPUT BOXES SO THEY ARE CENTERED WITHIN THE DIV. LOOK INTO POSITION PROPERTY. */
     transform: scale(1.5);
     margin: 1.75rem;
 }
 
-/* button styling */
-.loginButtons {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-}
 input[type="button"] {
     cursor: pointer;
     background-color: #cc5500;
@@ -71,4 +68,9 @@ input[type="button"] {
 
 input[type="button"]:hover {
     opacity: 0.8;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
 }

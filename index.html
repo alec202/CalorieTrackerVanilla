@@ -14,21 +14,16 @@
         <div class="loginContainer">
             <h1>Log in!</h1>
             <form class="login" method="post" id="login">
-                <div class="userNameContainer">
-                    <label for="user">Username: </label>
-                    <br>
-                    <input type="text" name="user" id="user" autocomplete="username" placeholder="JohnSmith123">
+                <div class="login-widgets">
+                    <input type="text" name="user" id="user" autocomplete="username" placeholder="Email / Username">
+                    <input type="password" name="pass" id="pass" autocomplete="current-password" placeholder="Password">
+                    <div>
+                        <a href="#">Forgot your Password?</a>
+                    </div>
                 </div>
-                <div class="passContainer">
-                    <label for="pass">Password: </label>
-                    <br>
-                    <input type="password" name="pass" id="pass" autocomplete="current-password"
-                        placeholder="appl3sYummy!">
-                </div>
-                <div class="loginButtons">
-                    <input type="button" value="Forgot Password">
-                    <input type="button" value="Submit">
-                </div>
+                <!-- <div class="loginButtons"> -->
+                <input type="button" value="Submit">
+                <!-- </div> -->
             </form>
         </div>
     </main>
