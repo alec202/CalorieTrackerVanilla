@@ -1,10 +1,15 @@
 /* General Page Setup */
 body {
-    padding: 2em;
-    margin: 0;
-    width: 90%;
+    /* padding: 2em; */
+    margin: 0 auto;
+    width: 90%; 
     text-align: center;
     background: #fffdd0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
